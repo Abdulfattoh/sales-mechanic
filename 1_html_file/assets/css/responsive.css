@@ -542,7 +542,6 @@
     .main-logo-box {
         padding: 0;
         border-right: 0px solid;
-        width: auto;
     }
 
     .header-right {
@@ -782,14 +781,16 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-        padding: 45px 0px 38px;
+        padding: 0px 0px 20px;
     }
 
-    .footer-bottom .bottom-inner .copyright {
-        padding-top: 17px;
+    .footer-bottom .bottom-inner .footer-logo-style1 a img {
+        margin-left: 40px;
     }
 
-
+    .service-element-page02 {
+        padding-top: 40px;
+    }
 
 
     .header-style2__top {
@@ -1395,7 +1396,7 @@
 
     /*** Main Slider Style1 Css ***/
     .main-slider .content .big-title h2 {
-        font-size: 40px;
+        font-size: 35px;
         line-height: 1.2em;
     }
 
