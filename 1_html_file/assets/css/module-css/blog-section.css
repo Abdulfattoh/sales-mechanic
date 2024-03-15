@@ -49,11 +49,6 @@
     z-index: 10;
 }
 
-.single-blog-style1:hover .img-holder::before {
-    opacity: 1.0;
-    transform: scale(1.0);
-}
-
 .single-blog-style1 .img-holder .date-box {
     position: absolute;
     left: 40px;
@@ -80,17 +75,10 @@
 
 .single-blog-style1 .img-holder img {
     width: 100%;
-    transform: scale(1.0);
+    transform: scale(0.999);
     mix-blend-mode: luminosity;
     transition: all 0.3s ease-in-out 0.1s opacity .2s ease-in;
 }
-
-.single-blog-style1:hover .img-holder img {
-    mix-blend-mode: normal;
-    transform: scale(1.1) rotate(1deg);
-}
-
-
 
 .single-blog-style1 .text-holder {
     position: relative;
@@ -658,7 +646,7 @@
     position: relative;
     display: block;
     background: #ffffff;
-    padding: 120px 0 120px;
+    padding: 40px 0 40px;
     z-index: 10;
 }
 
