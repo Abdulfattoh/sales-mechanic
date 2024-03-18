@@ -346,14 +346,6 @@
 }
 
 
-
-.single-service-style2 .img-holder .inner img {
-    width: 100%;
-    transform: scale(1.0);
-    mix-blend-mode: luminosity;
-    transition: all 700ms ease;
-}
-
 .single-service-style2:hover .img-holder .inner img {
     transform: scale(1.2);
     mix-blend-mode: normal;
@@ -455,6 +447,7 @@
     line-height: 30px;
     font-weight: 700;
     margin-bottom: 14px;
+    color: #000;
 }
 
 .single-service-style2 .title-holder h3 a {
