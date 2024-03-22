@@ -1229,35 +1229,10 @@ li {
 }
 
 .handle-preloader .animation-preloader .spinner {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+    width: 100vh;
+    height: 50vh;
+    background: url(../images/slides/loader.gif) no-repeat center;
     margin: 0 auto 45px auto;
-
-    animation-name: zoomInOut;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-
-    -webkit-animation-name: zoomInOut;
-    -webkit-animation-duration: 3s;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: ease-in-out;
-
-    -moz-animation-name: zoomInOut;
-    -moz-animation-duration: 3s;
-    -moz-animation-iteration-count: infinite;
-    -moz-animation-timing-function: ease-in-out;
-
-    -ms-animation-name: zoomInOut;
-    -ms-animation-duration: 3s;
-    -ms-animation-iteration-count: infinite;
-    -ms-animation-timing-function: ease-in-out;
-
-    -o-animation-name: zoomInOut;
-    -o-animation-duration: 3s;
-    -o-animation-iteration-count: infinite;
-    -o-animation-timing-function: ease-in-out;
 }
 
 .handle-preloader .animation-preloader .txt-loading {
@@ -1339,17 +1314,8 @@ animation: spinner 1s infinite linear;
 .handle-preloader .animation-preloader .txt-loading .letters-loading {}
 
 .handle-preloader .animation-preloader .txt-loading .letters-loading:before {
-    color: #ffffff;
+    color: #fff;
 }
-
-.handle-preloader .animation-preloader .spinner {
-    border: 3px solid #ffffff;
-    /**border-top-color: rgba(255, 255, 255, 0.5); **/
-}
-
-
-
-
 
 
 /* Animation preloader */
@@ -2263,7 +2229,7 @@ select:focus {
     font-size: 55px;
     line-height: 1.2em;
     font-weight: 700;
-    text-transform: capitalize;
+    text-transform: none;
     letter-spacing: -0.02em;
     margin: 7px 0 0;
 }

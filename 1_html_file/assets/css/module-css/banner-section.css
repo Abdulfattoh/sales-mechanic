@@ -168,7 +168,7 @@
     font-size: 80px;
     line-height: 0.9em;
     font-weight: 700;
-    text-transform: capitalize;
+    text-transform: none;
 }
 
 .main-slider .content .big-title h2 .dotted {
