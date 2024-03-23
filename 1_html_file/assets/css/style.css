@@ -1198,7 +1198,7 @@ li {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: var(--thm-base);
+    background-color: #5AC4CE;
     display: flex;
     display: -ms-flexbox;
     align-items: center;
@@ -1229,8 +1229,8 @@ li {
 }
 
 .handle-preloader .animation-preloader .spinner {
-    width: 100vh;
-    height: 50vh;
+    width: 100%;
+    height: 16vh;
     background: url(../images/slides/loader.gif) no-repeat center;
     margin: 0 auto 45px auto;
 }
@@ -2226,7 +2226,7 @@ select:focus {
 
 .sec-title h2 {
     color: var(--thm-black);
-    font-size: 55px;
+    font-size: 40px;
     line-height: 1.2em;
     font-weight: 700;
     text-transform: none;
@@ -2424,7 +2424,7 @@ select:focus {
     position: relative;
     display: block;
     background: #ffffff;
-    padding: 120px 0px 90px;
+    padding: 0px 0px 40px;
     z-index: 10;
 }
 
