@@ -1356,7 +1356,7 @@ animation: spinner 1s infinite linear;
     }
 
     .handle-preloader .animation-preloader .txt-loading .letters-loading {
-        font-size: 30px;
+        font-size: 20px;
         letter-spacing: 10px;
     }
 }
@@ -2424,7 +2424,7 @@ select:focus {
     position: relative;
     display: block;
     background: #ffffff;
-    padding: 0px 0px 40px;
+    padding: 120px 0px 90px;
     z-index: 10;
 }
 
@@ -2600,7 +2600,6 @@ select:focus {
     display: inline-block;
     line-height: 50px;
 }
-
 
 
 /*** 
